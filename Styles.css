@@ -1,0 +1,51 @@
+@import url("styles/header.css");
+@import url("styles/banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodapé.css");
+
+:root {
+    --cor-de-fundo: #EBECEE; /* Fundo preto */
+    --branco: #FFFFFF; /* Texto branco */
+    --dourado: #FFCC00; /* Cor para links e destaques */
+    --azul-degrade: linear-gradient(97.54deg, #2c2c2c 35.49%, #4a4a4a 165.37%); /* Degradê escuro */
+    --fonte-principal: "Poppins";
+    --cinza-escuro: #111; /* Para seções */
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--branco); /* Texto branco */
+}
+
+header, .banner, .carrossel, .tópicos, .contato, .rodapé {
+    background-color: var(--cinza-escuro); /* Fundo das seções */
+}
+
+a {
+    color: var(--dourado); /* Cor dos links */
+}
+
+input {
+    background-color: #333; /* Fundo dos inputs */
+    color: var(--branco); /* Texto dos inputs */
+}
+
+input::placeholder {
+    color: #aaa; /* Cor do placeholder */
+}
+
+.card, .lista-menu {
+    background-color: #222; /* Fundo das cartas e menu */
+}
+
+/* Outros ajustes para manter a legibilidade */
+h2, h3, p {
+    margin: 10px 0;
+}
+
+  
